@@ -1,0 +1,375 @@
+
+      <!DOCTYPE html>
+      <html lang="en">
+        <head>
+          <meta charset="utf-8" />
+          <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+          <title>Design Tokens</title>
+          <meta name="viewport" content="width=device-width, initial-scale=1" />
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css" />
+          <style>
+            html {
+              box-sizing: border-box;
+              font-size: 1em;
+              font-family: Helvetica, Arial, sans-serif;
+              line-height: 1.5;
+              background: #fff;
+              color: #444;
+            }
+            *,
+            *:before,
+            *:after {
+              box-sizing: inherit;
+            }
+            body { font-size: .75rem; }
+            ::-moz-selection {
+              background: #b3d4fc;
+              text-shadow: none;
+            }
+            ::selection {
+              background: #b3d4fc;
+              text-shadow: none;
+            }
+            .banner,
+            .contentinfo { background: #f5f5f5; }
+            .banner { padding: 1em 0; }
+            .container {
+              margin: 0 auto;
+              padding: 0 2rem;
+              max-width: 80rem;
+            }
+            main {
+              margin-right: -2rem;
+              margin-left:  -2rem;
+              padding-bottom: 2rem;
+            }
+            h1 {
+              margin: 0;
+              font-weight: normal;
+              line-height: 1.25;
+            }
+            table {
+              table-layout: fixed;
+              border-collapse: separate;
+              border-spacing: 1rem;
+              width: 100%;
+            }
+            th,
+            td {
+              padding: 0 1rem;
+              vertical-align: baseline;
+              word-break: break-word;
+              hyphens: auto;
+            }
+            th {
+              font-weight: normal;
+              text-align: left;
+            }
+            thead th {
+              border-bottom: 1px solid #eee;
+              padding-top: 1rem;
+              padding-bottom: .5rem;
+              color: #999;
+            }
+            thead th:first-child {
+              font-size: 1.25rem;
+              color: inherit;
+            }
+            code { font-family: monaco, Consolas, monospace, monospace; }
+            hr {
+              display: block;
+              margin: 2rem 0;
+              border: 0;
+              border-top: 1px solid #eee;
+              padding: 0;
+              height: 1px;
+            }
+            .metric-box,
+            .radius-box {
+              display: inline-block;
+              vertical-align: middle;
+              background: #eee;
+            }
+            .radius-box {
+              width: 100%;
+              height: 3rem;
+            }
+            .radius-box.borderRadiusCircle {
+              width: 3rem;
+            }
+            .line-height-example {
+              border-bottom: 1px solid #eee;
+              background-image: -webkit-linear-gradient(#eee 1px, transparent 1px);
+              background-image: linear-gradient(#eee 1px, transparent 1px);
+              background-size: 100% 1rem;
+            }
+          </style>
+        </head>
+        <body>
+          <header role="banner" class="banner">
+            <div class="container">
+              <h1>Design Tokens</h1>
+            </div>
+          </header>
+          <div class="container">
+            <main role="main">
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+      <section>
+        <table>
+          
+      <thead>
+        <tr id=background-color>
+          <th scope="col">Background Colors</th>
+          <th scope="col">Value</th>
+          <th scope="col">Examples</th>
+          <th scope="col">Usage</th>
+        </tr>
+      </thead>
+    
+          <tbody>
+            <tr>
+        <th scope="row">
+          <code>colorCommonBlack</code>
+        </th>
+        <td>
+          <code>#000</code>
+        </td>
+        <td style="background-color: #000; border: 1px solid #f6f6f6;"></td>
+        <td></td>
+      </tr>
+    
+      <tr>
+        <th scope="row">
+          <code>colorCommonWhite</code>
+        </th>
+        <td>
+          <code>#fff</code>
+        </td>
+        <td style="background-color: #fff; border: 1px solid #f6f6f6;"></td>
+        <td></td>
+      </tr>
+    
+      <tr>
+        <th scope="row">
+          <code>colorPrimaryMain</code>
+        </th>
+        <td>
+          <code>#3f51b5</code>
+        </td>
+        <td style="background-color: #3f51b5; border: 1px solid #f6f6f6;"></td>
+        <td></td>
+      </tr>
+    
+      <tr>
+        <th scope="row">
+          <code>colorPrimaryLight</code>
+        </th>
+        <td>
+          <code>#7986cb</code>
+        </td>
+        <td style="background-color: #7986cb; border: 1px solid #f6f6f6;"></td>
+        <td></td>
+      </tr>
+    
+      <tr>
+        <th scope="row">
+          <code>colorPrimaryDark</code>
+        </th>
+        <td>
+          <code>#303f9f</code>
+        </td>
+        <td style="background-color: #303f9f; border: 1px solid #f6f6f6;"></td>
+        <td></td>
+      </tr>
+    
+      <tr>
+        <th scope="row">
+          <code>colorPrimaryContrastText</code>
+        </th>
+        <td>
+          <code>#fff</code>
+        </td>
+        <td style="background-color: #fff; border: 1px solid #f6f6f6;"></td>
+        <td></td>
+      </tr>
+    
+      <tr>
+        <th scope="row">
+          <code>colorSecondaryMain</code>
+        </th>
+        <td>
+          <code>#f50057</code>
+        </td>
+        <td style="background-color: #f50057; border: 1px solid #f6f6f6;"></td>
+        <td></td>
+      </tr>
+    
+      <tr>
+        <th scope="row">
+          <code>colorSecondaryLight</code>
+        </th>
+        <td>
+          <code>#ff4081</code>
+        </td>
+        <td style="background-color: #ff4081; border: 1px solid #f6f6f6;"></td>
+        <td></td>
+      </tr>
+    
+      <tr>
+        <th scope="row">
+          <code>colorSecondaryDark</code>
+        </th>
+        <td>
+          <code>#c51162</code>
+        </td>
+        <td style="background-color: #c51162; border: 1px solid #f6f6f6;"></td>
+        <td></td>
+      </tr>
+    
+      <tr>
+        <th scope="row">
+          <code>colorSecondaryContrastText</code>
+        </th>
+        <td>
+          <code>#fff</code>
+        </td>
+        <td style="background-color: #fff; border: 1px solid #f6f6f6;"></td>
+        <td></td>
+      </tr>
+          </tbody>
+        </table>
+        <hr />
+      </section>
+    
+              
+              
+              
+      <section>
+        <table>
+          
+      <thead>
+        <tr id=drop-shadow>
+          <th scope="col">Drop Shadows</th>
+          <th scope="col">Value</th>
+          <th scope="col">Examples</th>
+          <th scope="col">Usage</th>
+        </tr>
+      </thead>
+    
+          <tbody>
+            <tr>
+        <th scope="row">
+          <code>shadow0</code>
+        </th>
+        <td>
+          <code>none</code>
+        </td>
+        <td style="box-shadow: none;"></td>
+        <td></td>
+      </tr>
+    
+      <tr>
+        <th scope="row">
+          <code>shadow1</code>
+        </th>
+        <td>
+          <code>0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12)</code>
+        </td>
+        <td style="box-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12);"></td>
+        <td></td>
+      </tr>
+    
+      <tr>
+        <th scope="row">
+          <code>shadow2</code>
+        </th>
+        <td>
+          <code>0px 3px 1px -2px rgba(0,0,0,0.2),0px 2px 2px 0px rgba(0,0,0,0.14),0px 1px 5px 0px rgba(0,0,0,0.12)</code>
+        </td>
+        <td style="box-shadow: 0px 3px 1px -2px rgba(0,0,0,0.2),0px 2px 2px 0px rgba(0,0,0,0.14),0px 1px 5px 0px rgba(0,0,0,0.12);"></td>
+        <td></td>
+      </tr>
+    
+      <tr>
+        <th scope="row">
+          <code>shadow3</code>
+        </th>
+        <td>
+          <code>0px 3px 3px -2px rgba(0,0,0,0.2),0px 3px 4px 0px rgba(0,0,0,0.14),0px 1px 8px 0px rgba(0,0,0,0.12)</code>
+        </td>
+        <td style="box-shadow: 0px 3px 3px -2px rgba(0,0,0,0.2),0px 3px 4px 0px rgba(0,0,0,0.14),0px 1px 8px 0px rgba(0,0,0,0.12);"></td>
+        <td></td>
+      </tr>
+    
+      <tr>
+        <th scope="row">
+          <code>shadow4</code>
+        </th>
+        <td>
+          <code>0px 2px 4px -1px rgba(0,0,0,0.2),0px 4px 5px 0px rgba(0,0,0,0.14),0px 1px 10px 0px rgba(0,0,0,0.12)</code>
+        </td>
+        <td style="box-shadow: 0px 2px 4px -1px rgba(0,0,0,0.2),0px 4px 5px 0px rgba(0,0,0,0.14),0px 1px 10px 0px rgba(0,0,0,0.12);"></td>
+        <td></td>
+      </tr>
+    
+      <tr>
+        <th scope="row">
+          <code>shadow5</code>
+        </th>
+        <td>
+          <code>0px 3px 5px -1px rgba(0,0,0,0.2),0px 5px 8px 0px rgba(0,0,0,0.14),0px 1px 14px 0px rgba(0,0,0,0.12)</code>
+        </td>
+        <td style="box-shadow: 0px 3px 5px -1px rgba(0,0,0,0.2),0px 5px 8px 0px rgba(0,0,0,0.14),0px 1px 14px 0px rgba(0,0,0,0.12);"></td>
+        <td></td>
+      </tr>
+    
+      <tr>
+        <th scope="row">
+          <code>shadow6</code>
+        </th>
+        <td>
+          <code>0px 3px 5px -1px rgba(0,0,0,0.2),0px 6px 10px 0px rgba(0,0,0,0.14),0px 1px 18px 0px rgba(0,0,0,0.12)</code>
+        </td>
+        <td style="box-shadow: 0px 3px 5px -1px rgba(0,0,0,0.2),0px 6px 10px 0px rgba(0,0,0,0.14),0px 1px 18px 0px rgba(0,0,0,0.12);"></td>
+        <td></td>
+      </tr>
+    
+      <tr>
+        <th scope="row">
+          <code>shadow7</code>
+        </th>
+        <td>
+          <code>0px 4px 5px -2px rgba(0,0,0,0.2),0px 7px 10px 1px rgba(0,0,0,0.14),0px 2px 16px 1px rgba(0,0,0,0.12)</code>
+        </td>
+        <td style="box-shadow: 0px 4px 5px -2px rgba(0,0,0,0.2),0px 7px 10px 1px rgba(0,0,0,0.14),0px 2px 16px 1px rgba(0,0,0,0.12);"></td>
+        <td></td>
+      </tr>
+          </tbody>
+        </table>
+        <hr />
+      </section>
+    
+              
+              
+              
+              
+              
+              
+            </main>
+          </div>
+        </body>
+      </html>
+    

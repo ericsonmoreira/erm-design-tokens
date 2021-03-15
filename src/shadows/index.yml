@@ -1,6 +1,6 @@
 global:
   type: box-shadow
-  category: shadows
+  category: drop-shadow
 
 imports:
   - ./aliases.yml
@@ -10,22 +10,46 @@ props:
     value: "{!shadow-0}"
     meta:
       friendlyName: shadow-0
-    category: shadows
+    category: drop-shadow
 
   - name: shadow-1
     value: "{!shadow-1}"
     meta:
       friendlyName: Shadow 1
-    category: shadows
+    category: drop-shadow
 
   - name: shadow-2
     value: "{!shadow-2}"
     meta:
       friendlyName: Shadow 2
-    category: shadows
+    category: drop-shadow
 
   - name: shadow-3
     value: "{!shadow-3}"
     meta:
       friendlyName: Shadow 3
-    category: shadows
+    category: drop-shadow
+
+  - name: shadow-4
+    value: "{!shadow-4}"
+    meta:
+      friendlyName: Shadow 4
+    category: drop-shadow
+
+  - name: shadow-5
+    value: "{!shadow-5}"
+    meta:
+      friendlyName: Shadow 5
+    category: drop-shadow
+
+  - name: shadow-6
+    value: "{!shadow-6}"
+    meta:
+      friendlyName: Shadow 6
+    category: drop-shadow
+
+  - name: shadow-7
+    value: "{!shadow-7}"
+    meta:
+      friendlyName: Shadow 7
+    category: drop-shadow
