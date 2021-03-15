@@ -7,11 +7,14 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "theo-scss": "theo src/tokens.yml --format scss --dest dist",
-    "theo-json": "theo src/tokens.yml --format json --dest dist",
-    "theo-module": "theo src/tokens.yml --format module.js --dest dist"
+    "scss": "theo src/tokens.yml --format scss --dest dist",
+    "json": "theo src/tokens.yml --format json --dest dist",
+    "module": "theo src/tokens.yml --format module.js --dest dist"
+  },
+  "devDependencies": {
+    "theo": "^8.1.5"
   },
   "dependencies": {
-    "theo": "^8.1.5"
+    "optimist": "^0.6.1"
   }
 }
