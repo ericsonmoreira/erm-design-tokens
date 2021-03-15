@@ -13,7 +13,8 @@
   "scripts": {
     "scss": "theo src/tokens.yml --format scss --dest dist",
     "json": "theo src/tokens.yml --format json --dest dist",
-    "module": "theo src/tokens.yml --format module.js --dest dist"
+    "module": "theo src/tokens.yml --format module.js --dest dist",
+    "all": "yarn scss && yarn json && yarn module"
   },
   "devDependencies": {
     "theo": "^8.1.5"
