@@ -6,6 +6,9 @@
   "author": "Ericson Rogerio Moreira",
   "license": "MIT",
   "private": true,
+  "repository": {
+    "url": "https://github.com/ericsonmoreira/erm-design-tokens"
+  },
   "scripts": {
     "scss": "theo src/tokens.yml --format scss --dest dist",
     "json": "theo src/tokens.yml --format json --dest dist",
