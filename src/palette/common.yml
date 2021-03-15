@@ -1,0 +1,19 @@
+global:
+  type: color
+  category: category-color
+
+imports:
+  - ./aliases.yml
+
+props:
+  - name: color-common-black
+    value: "{!color-common-black}"
+    meta:
+      friendlyName: Color Common Black
+    category: background-color
+
+  - name: color-common-white
+    value: "{!color-common-white}"
+    meta:
+      friendlyName: Color Common White
+    category: background-color

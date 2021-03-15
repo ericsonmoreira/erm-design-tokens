@@ -1,0 +1,17 @@
+{
+  "name": "erm-design-tokens",
+  "version": "1.0.0",
+  "description": "Ericson Rogerio Moreira Design Tokens",
+  "main": "src/index.js",
+  "author": "Ericson Rogerio Moreira",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "theo-scss": "theo src/tokens.yml --format scss --dest dist",
+    "theo-json": "theo src/tokens.yml --format json --dest dist",
+    "theo-module": "theo src/tokens.yml --format module.js --dest dist"
+  },
+  "dependencies": {
+    "theo": "^8.1.5"
+  }
+}

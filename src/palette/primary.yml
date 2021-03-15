@@ -1,0 +1,31 @@
+global:
+  type: color
+  category: category-color
+
+imports:
+  - ./aliases.yml
+
+props:
+  - name: color-primary-main
+    value: "{!color-primary-main}"
+    meta:
+      friendlyName: Color Primary Main
+    category: background-color
+
+  - name: color-primary-light
+    value: "{!color-primary-light}"
+    meta:
+      friendlyName: Color Primary Light
+    category: background-color
+
+  - name: color-primary-dark
+    value: "{!color-primary-dark}"
+    meta:
+      friendlyName: Color Primary Dark
+    category: background-color
+
+  - name: color-primary-contrast-text
+    value: "{!color-primary-contrast-text}"
+    meta:
+      friendlyName: Color Primary Contrast Text
+    category: background-color

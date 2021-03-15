@@ -1,0 +1,31 @@
+global:
+  type: box-shadow
+  category: shadows
+
+imports:
+  - ./aliases.yml
+
+props:
+  - name: shadow-0
+    value: "{!shadow-0}"
+    meta:
+      friendlyName: shadow-0
+    category: shadows
+
+  - name: shadow-1
+    value: "{!shadow-1}"
+    meta:
+      friendlyName: Shadow 1
+    category: shadows
+
+  - name: shadow-2
+    value: "{!shadow-2}"
+    meta:
+      friendlyName: Shadow 2
+    category: shadows
+
+  - name: shadow-3
+    value: "{!shadow-3}"
+    meta:
+      friendlyName: Shadow 3
+    category: shadows

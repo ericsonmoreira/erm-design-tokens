@@ -1,0 +1,17 @@
+global:
+  type: aliases
+  category: pallete-color
+
+aliases:
+  color-common-black: "#000"
+  color-common-white: "#fff"
+
+  color-primary-light: "#7986cb"
+  color-primary-main: "#3f51b5"
+  color-primary-dark: "#303f9f"
+  color-primary-contrast-text: "#fff"
+
+  color-secondary-light: "#ff4081"
+  color-secondary-main: "#f50057"
+  color-secondary-dark: "#c51162"
+  color-secondary-contrast-text: "#fff"
