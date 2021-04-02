@@ -1,0 +1,15 @@
+global:
+  type: aliases
+  category: font-size
+
+aliases:
+  font-size-micro: "10pt"
+  font-size-xxxs: "12pt"
+  font-size-xxs: "14pt"
+  font-size-xs: "16pt"
+  font-size-sm: "20pt"
+  font-size-md: "24pt"
+  font-size-lg: "34pt"
+  font-size-xl: "48pt"
+  font-size-xxl: "60pt"
+  font-size-xxxl: "96pt"

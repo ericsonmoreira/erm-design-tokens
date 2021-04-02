@@ -1,0 +1,67 @@
+global:
+  type: font-size
+  category: font-size
+
+imports:
+  - ./aliases.yml
+
+props:
+  - name: font-size-micro
+    value: "{!font-size-micro}"
+    meta:
+      friendlyName: Font Size Micro
+    category: font-size
+
+  - name: font-size-xxxs
+    value: "{!font-size-xxxs}"
+    meta:
+      friendlyName: Font Size XXX Small
+    category: font-size
+
+  - name: font-size-xxs
+    value: "{!font-size-xxs}"
+    meta:
+      friendlyName: Font Size XX Small
+    category: font-size
+
+  - name: font-size-xs
+    value: "{!font-size-xs}"
+    meta:
+      friendlyName: Font Size X Small
+    category: font-size
+
+  - name: font-size-sm
+    value: "{!font-size-sm}"
+    meta:
+      friendlyName: Font Size Small
+    category: font-size
+
+  - name: font-size-md
+    value: "{!font-size-md}"
+    meta:
+      friendlyName: Font Size Medium
+    category: font-size
+
+  - name: font-size-lg
+    value: "{!font-size-lg}"
+    meta:
+      friendlyName: Font Size Long
+    category: font-size
+
+  - name: font-size-xl
+    value: "{!font-size-xl}"
+    meta:
+      friendlyName: Font Size X Long
+    category: font-size
+
+  - name: font-size-xxl
+    value: "{!font-size-xxl}"
+    meta:
+      friendlyName: Font Size XX Long
+    category: font-size
+
+  - name: font-size-xxxl
+    value: "{!font-size-xxxl}"
+    meta:
+      friendlyName: Font Size XX Long
+    category: font-size
