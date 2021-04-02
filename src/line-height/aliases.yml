@@ -1,0 +1,9 @@
+global:
+  type: aliases
+  category: line-height
+
+aliases:
+  line-height-tight: "20px"
+  line-height-medium: "24px"
+  line-height-distant: "32px"
+  line-height-superdistant: "40px"

@@ -1,0 +1,31 @@
+global:
+  type: line-height
+  category: line-height
+
+imports:
+  - ./aliases.yml
+
+props:
+  - name: line-height-tight
+    value: "{!line-height-tight}"
+    meta:
+      friendlyName: Line Height Tight
+    category: line-height
+
+  - name: line-height-medium
+    value: "{!line-height-medium}"
+    meta:
+      friendlyName: Line Height Medium
+    category: line-height
+
+  - name: line-height-distant
+    value: "{!line-height-distant}"
+    meta:
+      friendlyName: Line Height Distant
+    category: line-height
+
+  - name: line-height-superdistant
+    value: "{!line-height-superdistant}"
+    meta:
+      friendlyName: Line Height Superdistant
+    category: line-height

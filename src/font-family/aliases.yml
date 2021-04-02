@@ -1,0 +1,6 @@
+global:
+  type: aliases
+  category: font-family
+
+aliases:
+  font-family-01: "Montserrat"

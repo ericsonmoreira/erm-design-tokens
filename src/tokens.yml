@@ -1,3 +1,6 @@
 imports:
   - ./palette/index.yml
   - ./shadows/index.yml
+  - ./line-height/index.yml
+  - ./font-family/index.yml
+  - ./font-weight/index.yml

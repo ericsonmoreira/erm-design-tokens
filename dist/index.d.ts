@@ -1,2 +1,1 @@
-import * as tokens from "./dist/tokens.module";
-export default tokens;
+export * from './tokens/tokens.module';

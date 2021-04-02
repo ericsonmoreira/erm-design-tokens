@@ -1,0 +1,14 @@
+global:
+  type: font-family	
+  category: font-family	
+
+imports:
+  - ./aliases.yml
+
+props:
+  - name: font-family-01
+    value: "{!font-family-01}"
+    meta:
+      friendlyName: Font family 1
+    category: font-family
+

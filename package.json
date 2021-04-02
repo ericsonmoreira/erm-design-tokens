@@ -14,14 +14,18 @@
   "scripts": {
     "build": "tsc --declaration",
     "dev": "nodemon --watch \"src//\" --exec \"ts-node src/sample.ts\" -e ts",
-    "scss": "theo src/tokens.yml --format scss --dest src/dist",
-    "json": "theo src/tokens.yml --format json --dest src/dist",
-    "module": "theo src/tokens.yml --format module.js --dest src/dist",
-    "html": "theo src/tokens.yml --format html --dest src/dist",
-    "all": "yarn scss && yarn json && yarn module && yarn html && yarn build"
+    "lint": "yarn eslint . --fix",
+    "scss": "theo src/tokens.yml --format scss --dest src/tokens",
+    "json": "theo src/tokens.yml --format json --dest src/tokens",
+    "module": "theo src/tokens.yml --format module.js --dest src/tokens",
+    "html": "theo src/tokens.yml --format html --dest src/tokens",
+    "all": "yarn scss && yarn json && yarn module && yarn html && yarn build && yarn lint"
   },
   "devDependencies": {
     "@types/node": "^14.14.34",
+    "@typescript-eslint/eslint-plugin": "^4.18.0",
+    "@typescript-eslint/parser": "^4.18.0",
+    "eslint": "^7.22.0",
     "nodemon": "^2.0.7",
     "theo": "^8.1.5",
     "ts-node": "^9.1.1",
