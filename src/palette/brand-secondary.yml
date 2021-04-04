@@ -1,0 +1,37 @@
+global:
+  type: color
+  category: category-color
+
+imports:
+  - ./aliases.yml
+
+props:
+  - name: color-brand-secondary-darkest
+    value: "{!color-brand-secondary-darkest}"
+    meta:
+      friendlyName: Color Brand Secondary Darkest
+    category: background-color
+
+  - name: color-brand-secondary-dark
+    value: "{!color-brand-secondary-dark}"
+    meta:
+      friendlyName: Color Brand Secondary Dark
+    category: background-color
+
+  - name: color-brand-secondary-medium
+    value: "{!color-brand-secondary-medium}"
+    meta:
+      friendlyName: Color Brand Secondary Medium
+    category: background-color
+
+  - name: color-brand-secondary-light
+    value: "{!color-brand-secondary-light}"
+    meta:
+      friendlyName: Color Brand Secondary Light
+    category: background-color
+
+  - name: color-brand-secondary-lightest
+    value: "{!color-brand-secondary-lightest}"
+    meta:
+      friendlyName: Color Brand Secondary Lightest
+    category: background-color

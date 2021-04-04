@@ -1,4 +1,7 @@
 imports:
-  - ./common.yml
-  - ./primary.yml
-  - ./secondary.yml
+  - ./brand-primary.yml
+  - ./brand-secondary.yml
+  - ./feedback-critical.yml
+  - ./feedback-information.yml
+  - ./feedback-success.yml
+  - ./feedback-warning.yml
