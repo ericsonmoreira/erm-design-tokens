@@ -13,13 +13,13 @@
   },
   "scripts": {
     "build": "tsc --declaration",
-    "dev": "nodemon --watch \"src//\" --exec \"ts-node src/sample.ts\" -e ts",
+    "dev": "nodemon --watch \"src//\" --exec \"ts-node src/index.ts\" -e ts",
     "lint": "yarn eslint . --fix",
-    "scss": "theo src/tokens.yml --format scss --dest src/tokens",
+    "sass": "theo src/tokens.yml --format sass --dest src/tokens",
     "json": "theo src/tokens.yml --format json --dest src/tokens",
     "module": "theo src/tokens.yml --format module.js --dest src/tokens",
     "html": "theo src/tokens.yml --format html --dest src/tokens",
-    "all": "yarn scss && yarn json && yarn module && yarn html && yarn build && yarn lint"
+    "all": "yarn sass && yarn json && yarn module && yarn html && yarn build && yarn lint"
   },
   "devDependencies": {
     "@types/node": "^14.14.34",
