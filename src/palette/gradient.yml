@@ -1,0 +1,25 @@
+global:
+  type: color
+  category: background-gradient
+
+imports:
+  - ./aliases.yml
+
+props:
+  - name: color-gradient-01
+    value: "{!color-gradient-01}"
+    meta:
+      friendlyName: color Gradient 01
+    category: background-gradient
+
+  - name: color-gradient-02
+    value: "{!color-gradient-02}"
+    meta:
+      friendlyName: color Gradient 02
+    category: background-gradient
+
+  - name: color-gradient-03
+    value: "{!color-gradient-03}"
+    meta:
+      friendlyName: color Gradient 03
+    category: background-gradient

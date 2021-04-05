@@ -5,3 +5,6 @@ imports:
   - ./feedback-information.yml
   - ./feedback-success.yml
   - ./feedback-warning.yml
+  - ./neutral-dark.yml
+  - ./neutral-light.yml
+  - ./gradient.yml

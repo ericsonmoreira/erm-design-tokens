@@ -39,3 +39,27 @@ aliases:
   color-feedback-critical-light: "#ECA99B"
   color-feedback-critical-lightest: "#F1DEDA"
 
+  color-neutral-dark-base: "#1B1C1D"
+  color-neutral-dark-01: "#373F45"
+  color-neutral-dark-02: "#697177"
+  color-neutral-dark-03: "#8E959A"
+  color-neutral-dark-04: "#B0B8BE"
+
+  color-neutral-light-base: "#FFFFFF"
+  color-neutral-light-01: "#F3F6F9"
+  color-neutral-light-02: "#E6EBEF"
+  color-neutral-light-03: "#DCE1E5"
+  color-neutral-light-04: "#C8D1D9"
+
+  color-gradient-01: "linear-gradient(45deg, #004457 0%, #0077CF 100%, #0077CF 100%)"
+  color-gradient-02: "linear-gradient(224.73deg, #0E6038 -22.29%, #3DAD77 118.93%)"
+  color-gradient-03: "linear-gradient(224.73deg, #0077CF -22.29%, #E1EFFA 118.93%)"
+
+  color-button-overlay-base: "rgba(0, 0, 0, 0.1)"
+  color-button-overlay-01: "rgba(0, 0, 0, 0.2)"
+  color-button-overlay-02: "rgba(0, 0, 0, 0.3)"
+  color-button-overlay-03: "rgba(0, 0, 0, 0.4)"
+  color-button-overlay-04: "rgba(0, 0, 0, 0.5)"
+  color-button-overlaybranding-base: "rgba(31, 147, 108, 0.1)"
+  color-button-solidbranding-base: "#9BD7BA"
+  color-button-solidbranding-lightest: "#D3E3DC"

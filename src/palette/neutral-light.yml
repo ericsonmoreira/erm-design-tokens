@@ -1,0 +1,37 @@
+global:
+  type: color
+  category: category-color
+
+imports:
+  - ./aliases.yml
+
+props:
+  - name: color-neutral-light-base
+    value: "{!color-neutral-light-base}"
+    meta:
+      friendlyName: Color Neutral Light Base
+    category: background-color
+
+  - name: color-neutral-light-01
+    value: "{!color-neutral-light-01}"
+    meta:
+      friendlyName: Color Neutral Light 01
+    category: background-color
+
+  - name: color-neutral-light-02
+    value: "{!color-neutral-light-02}"
+    meta:
+      friendlyName: Color Neutral Light 02
+    category: background-color
+
+  - name: color-neutral-light-03
+    value: "{!color-neutral-light-03}"
+    meta:
+      friendlyName: Color Neutral Light 03
+    category: background-color
+
+  - name: color-neutral-light-04
+    value: "{!color-neutral-light-04}"
+    meta:
+      friendlyName: Color Neutral Light 04
+    category: background-color

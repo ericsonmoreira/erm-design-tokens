@@ -1,0 +1,55 @@
+global:
+  type: color
+  category: category-color
+
+imports:
+  - ./aliases.yml
+
+props:
+  - name: color-button-overlay-base
+    value: "{!color-button-overlay-base}"
+    meta:
+      friendlyName: Color Button Overlay Base
+    category: background-color
+
+  - name: color-button-overlay-01
+    value: "{!color-button-overlay-01}"
+    meta:
+      friendlyName: Color Button Overlay 01
+    category: background-color
+
+  - name: color-button-overlay-02
+    value: "{!color-button-overlay-02}"
+    meta:
+      friendlyName: Color Button Overlay 02
+    category: background-color
+
+  - name: color-button-overlay-03
+    value: "{!color-button-overlay-03}"
+    meta:
+      friendlyName: Color Button Overlay 03
+    category: background-color
+
+  - name: color-button-overlay-04
+    value: "{!color-button-overlay-04}"
+    meta:
+      friendlyName: Color Button Overlay 04
+    category: background-color
+
+- name: color-button-overlaybranding-base
+    value: "{!color-button-overlaybranding-base}"
+    meta:
+      friendlyName: Color Button Overlay Branding Base
+    category: background-color
+
+- name: color-button-solidbranding-base
+    value: "{!color-button-solidbranding-base}"
+    meta:
+      friendlyName: Color Button Solid Branding Base
+    category: background-color
+
+- name: color-button-solidbranding-lightest
+    value: "{!color-button-solidbranding-lightest}"
+    meta:
+      friendlyName: Color Button Solidbranding Lightest
+    category: background-color
