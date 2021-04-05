@@ -5,3 +5,4 @@ imports:
   - ./font-family/index.yml
   - ./font-weight/index.yml
   - ./font-size/index.yml
+  - ./border-radius/index.yml

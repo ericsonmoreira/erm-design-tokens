@@ -1,0 +1,25 @@
+global:
+  type: font-size
+  category: border-radius
+
+imports:
+  - ./aliases.yml
+
+props:
+  - name: border-radius-sm
+    value: "{!border-radius-sm}"
+    meta:
+      friendlyName: Border Radius Small
+    category: border-radius
+
+  - name: border-radius-md
+    value: "{!border-radius-md}"
+    meta:
+      friendlyName: Border Radius Medium
+    category: border-radius
+
+  - name: border-radius-lg
+    value: "{!border-radius-lg}"
+    meta:
+      friendlyName: Border Radius Long
+    category: border-radius

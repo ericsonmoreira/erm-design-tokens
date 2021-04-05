@@ -1,0 +1,8 @@
+global:
+  type: aliases
+  category: border-radius
+
+aliases:
+  border-radius-sm: "4px"
+  border-radius-md: "8px"
+  border-radius-lg: "16px"
