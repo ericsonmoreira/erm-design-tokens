@@ -1,0 +1,13 @@
+global:
+  type: border-style
+  category: border-style
+
+imports:
+  - ./aliases.yml
+
+props:
+  - name: border-width-hairline
+    value: "{!border-width-hairline}"
+    meta:
+      friendlyName: Border Width Hairline
+    category: border-style

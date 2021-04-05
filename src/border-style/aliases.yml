@@ -1,0 +1,6 @@
+global:
+  type: aliases
+  category: border-style
+
+aliases:
+  border-width-hairline: "1px solid"

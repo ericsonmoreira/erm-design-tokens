@@ -72,3 +72,4 @@ export const fontSizeXxxl = '96pt';
 export const borderRadiusSm = '4px';
 export const borderRadiusMd = '8px';
 export const borderRadiusLg = '16px';
+export const borderWidthHairline = '1px solid';

@@ -6,3 +6,4 @@ imports:
   - ./font-weight/index.yml
   - ./font-size/index.yml
   - ./border-radius/index.yml
+  - ./border-style/index.yml
