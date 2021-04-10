@@ -1,0 +1,85 @@
+global:
+  type: line-height
+  category: spacing
+
+imports:
+  - ./aliases.yml
+
+props:
+  - name: spacing-stack-quarck
+    value: "{!spacing-stack-quarck}"
+    meta:
+      friendlyName: Spacing Stack Quarck
+    category: spacing
+
+  - name: spacing-stack-nano
+    value: "{!spacing-stack-nano}"
+    meta:
+      friendlyName: Spacing Stack Nano
+    category: spacing
+
+  - name: spacing-stack-xxxs
+    value: "{!spacing-stack-xxxs}"
+    meta:
+      friendlyName: Spacing Stack XXX Small
+    category: spacing
+
+  - name: spacing-stack-xxs
+    value: "{!spacing-stack-xxs}"
+    meta:
+      friendlyName: Spacing Stack XX Small
+    category: spacing
+
+  - name: spacing-stack-xs
+    value: "{!spacing-stack-xs}"
+    meta:
+      friendlyName: Spacing Stack X Small
+    category: spacing
+
+  - name: spacing-stack-sm
+    value: "{!spacing-stack-sm}"
+    meta:
+      friendlyName: Spacing Stack Small
+    category: spacing
+
+  - name: spacing-stack-md
+    value: "{!spacing-stack-md}"
+    meta:
+      friendlyName: Spacing Stack Medium
+    category: spacing
+
+  - name: spacing-stack-lg
+    value: "{!spacing-stack-lg}"
+    meta:
+      friendlyName: Spacing Stack Large
+    category: spacing
+
+  - name: spacing-stack-xl
+    value: "{!spacing-stack-xl}"
+    meta:
+      friendlyName: Spacing Stack X Large
+    category: spacing
+
+  - name: spacing-stack-xxl
+    value: "{!spacing-stack-xxl}"
+    meta:
+      friendlyName: Spacing Stack XX Large
+    category: spacing
+
+  - name: spacing-stack-xxxl
+    value: "{!spacing-stack-xxxl}"
+    meta:
+      friendlyName: Spacing Stack XXX Large
+    category: spacing
+
+  - name: spacing-stack-huge
+    value: "{!spacing-stack-huge}"
+    meta:
+      friendlyName: Spacing Stack Huge
+    category: spacing
+
+  - name: spacing-stack-giant
+    value: "{!spacing-stack-giant}"
+    meta:
+      friendlyName: Spacing Stack Biant
+    category: spacing

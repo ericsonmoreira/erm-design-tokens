@@ -1,0 +1,61 @@
+global:
+  type: line-height
+  category: spacing
+
+imports:
+  - ./aliases.yml
+
+props:
+  - name: spacing-inline-quarck
+    value: "{!spacing-inline-quarck}"
+    meta:
+      friendlyName: Spacing Inline Quarck
+    category: spacing
+
+  - name: spacing-inline-nano
+    value: "{!spacing-inline-nano}"
+    meta:
+      friendlyName: Spacing Inline Nano
+    category: spacing
+
+  - name: spacing-inline-xxxs
+    value: "{!spacing-inline-xxxs}"
+    meta:
+      friendlyName: Spacing Inline XXX Small
+    category: spacing
+
+  - name: spacing-inline-xxs
+    value: "{!spacing-inline-xxs}"
+    meta:
+      friendlyName: Spacing Inline XX Small
+    category: spacing
+
+  - name: spacing-inline-xs
+    value: "{!spacing-inline-xs}"
+    meta:
+      friendlyName: Spacing Inline X Small
+    category: spacing
+
+  - name: spacing-inline-sm
+    value: "{!spacing-inline-sm}"
+    meta:
+      friendlyName: Spacing Inline Small
+    category: spacing
+
+  - name: spacing-inline-md
+    value: "{!spacing-inline-md}"
+    meta:
+      friendlyName: Spacing Inline Medium
+    category: spacing
+
+  - name: spacing-inline-lg
+    value: "{!spacing-inline-lg}"
+    meta:
+      friendlyName: Spacing Inline Large
+    category: spacing
+
+  - name: spacing-inline-xl
+    value: "{!spacing-inline-xl}"
+    meta:
+      friendlyName: Spacing Inline X Large
+    category: spacing

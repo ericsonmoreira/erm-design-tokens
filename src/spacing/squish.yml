@@ -1,0 +1,37 @@
+global:
+  type: line-height
+  category: spacing
+
+imports:
+  - ./aliases.yml
+
+props:
+  - name: spacing-squish-01
+    value: "{!spacing-squish-01}"
+    meta:
+      friendlyName: Spacing Inset 01
+    category: spacing
+
+  - name: spacing-squish-02
+    value: "{!spacing-squish-02}"
+    meta:
+      friendlyName: Spacing Inset 02
+    category: spacing
+
+  - name: spacing-squish-03
+    value: "{!spacing-squish-03}"
+    meta:
+      friendlyName: Spacing Inset 03
+    category: spacing
+
+  - name: spacing-squish-04
+    value: "{!spacing-squish-04}"
+    meta:
+      friendlyName: Spacing Inset 04
+    category: spacing
+
+  - name: spacing-squish-05
+    value: "{!spacing-squish-05}"
+    meta:
+      friendlyName: Spacing Inset 05
+    category: spacing
