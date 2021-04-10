@@ -1,5 +1,5 @@
 imports:
   - ./inline.yml
-  - ./insert.yml
+  - ./inset.yml
   - ./squish.yml
   - ./stack.yml
