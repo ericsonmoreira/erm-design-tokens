@@ -23,3 +23,15 @@ props:
     meta:
       friendlyName: Border Radius Long
     category: border-radius
+
+  - name: border-radius-pill
+    value: "{!border-radius-pill}"
+    meta:
+      friendlyName: Border Radius Pill
+    category: border-radius
+
+  - name: border-radius-circular
+    value: "{!border-radius-circular}"
+    meta:
+      friendlyName: Border Radius Circular
+    category: border-radius

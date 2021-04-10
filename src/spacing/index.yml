@@ -1,0 +1,205 @@
+global:
+  type: line-height
+  category: spacing
+
+imports:
+  - ./aliases.yml
+
+props:
+  - name: spacing-stack-quarck
+    value: "{!spacing-stack-quarck}"
+    meta:
+      friendlyName: Spacing Stack Quarck
+    category: spacing
+
+  - name: spacing-stack-nano
+    value: "{!spacing-stack-nano}"
+    meta:
+      friendlyName: Spacing Stack Nano
+    category: spacing
+
+  - name: spacing-stack-xxxs
+    value: "{!spacing-stack-xxxs}"
+    meta:
+      friendlyName: Spacing Stack XXX Small
+    category: spacing
+
+  - name: spacing-stack-xxs
+    value: "{!spacing-stack-xxs}"
+    meta:
+      friendlyName: Spacing Stack XX Small
+    category: spacing
+
+  - name: spacing-stack-xs
+    value: "{!spacing-stack-xs}"
+    meta:
+      friendlyName: Spacing Stack X Small
+    category: spacing
+
+  - name: spacing-stack-sm
+    value: "{!spacing-stack-sm}"
+    meta:
+      friendlyName: Spacing Stack Small
+    category: spacing
+
+  - name: spacing-stack-md
+    value: "{!spacing-stack-md}"
+    meta:
+      friendlyName: Spacing Stack Medium
+    category: spacing
+
+  - name: spacing-stack-lg
+    value: "{!spacing-stack-lg}"
+    meta:
+      friendlyName: Spacing Stack Large
+    category: spacing
+
+  - name: spacing-stack-xl
+    value: "{!spacing-stack-xl}"
+    meta:
+      friendlyName: Spacing Stack X Large
+    category: spacing
+
+  - name: spacing-stack-xxl
+    value: "{!spacing-stack-xxl}"
+    meta:
+      friendlyName: Spacing Stack XX Large
+    category: spacing
+
+  - name: spacing-stack-xxxl
+    value: "{!spacing-stack-xxxl}"
+    meta:
+      friendlyName: Spacing Stack XXX Large
+    category: spacing
+
+  - name: spacing-stack-huge
+    value: "{!spacing-stack-huge}"
+    meta:
+      friendlyName: Spacing Stack Huge
+    category: spacing
+
+  - name: spacing-stack-giant
+    value: "{!spacing-stack-giant}"
+    meta:
+      friendlyName: Spacing Stack Biant
+    category: spacing
+
+  - name: spacing-inline-quarck
+    value: "{!spacing-inline-quarck}"
+    meta:
+      friendlyName: Spacing Inline Quarck
+    category: spacing
+
+  - name: spacing-inline-nano
+    value: "{!spacing-inline-nano}"
+    meta:
+      friendlyName: Spacing Inline Nano
+    category: spacing
+
+  - name: spacing-inline-xxxs
+    value: "{!spacing-inline-xxxs}"
+    meta:
+      friendlyName: Spacing Inline XXX Small
+    category: spacing
+
+  - name: spacing-inline-xxs
+    value: "{!spacing-inline-xxs}"
+    meta:
+      friendlyName: Spacing Inline XX Small
+    category: spacing
+
+  - name: spacing-inline-xs
+    value: "{!spacing-inline-xs}"
+    meta:
+      friendlyName: Spacing Inline X Small
+    category: spacing
+
+  - name: spacing-inline-sm
+    value: "{!spacing-inline-sm}"
+    meta:
+      friendlyName: Spacing Inline Small
+    category: spacing
+
+  - name: spacing-inline-md
+    value: "{!spacing-inline-md}"
+    meta:
+      friendlyName: Spacing Inline Medium
+    category: spacing
+
+  - name: spacing-inline-lg
+    value: "{!spacing-inline-lg}"
+    meta:
+      friendlyName: Spacing Inline Large
+    category: spacing
+
+  - name: spacing-inline-xl
+    value: "{!spacing-inline-xl}"
+    meta:
+      friendlyName: Spacing Inline X Large
+    category: spacing
+
+  - name: spacing-inset-01
+    value: "{!spacing-inset-01}"
+    meta:
+      friendlyName: Spacing Inset 01
+    category: spacing
+
+  - name: spacing-inset-02
+    value: "{!spacing-inset-02}"
+    meta:
+      friendlyName: Spacing Inset 02
+    category: spacing
+
+  - name: spacing-inset-03
+    value: "{!spacing-inset-03}"
+    meta:
+      friendlyName: Spacing Inset 03
+    category: spacing
+
+  - name: spacing-inset-04
+    value: "{!spacing-inset-04}"
+    meta:
+      friendlyName: Spacing Inset 04
+    category: spacing
+
+  - name: spacing-inset-05
+    value: "{!spacing-inset-05}"
+    meta:
+      friendlyName: Spacing Inset 05
+    category: spacing
+
+  - name: spacing-inset-06
+    value: "{!spacing-inset-06}"
+    meta:
+      friendlyName: Spacing Inset 06
+    category: spacing
+
+  - name: spacing-squish-01
+    value: "{!spacing-squish-01}"
+    meta:
+      friendlyName: Spacing Inset 01
+    category: spacing
+
+  - name: spacing-squish-02
+    value: "{!spacing-squish-02}"
+    meta:
+      friendlyName: Spacing Inset 02
+    category: spacing
+
+  - name: spacing-squish-03
+    value: "{!spacing-squish-03}"
+    meta:
+      friendlyName: Spacing Inset 03
+    category: spacing
+
+  - name: spacing-squish-04
+    value: "{!spacing-squish-04}"
+    meta:
+      friendlyName: Spacing Inset 04
+    category: spacing
+
+  - name: spacing-squish-05
+    value: "{!spacing-squish-05}"
+    meta:
+      friendlyName: Spacing Inset 05
+    category: spacing

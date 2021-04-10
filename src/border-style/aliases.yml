@@ -4,3 +4,6 @@ global:
 
 aliases:
   border-width-hairline: "1px solid"
+  border-width-thin: "2px solid"
+  border-width-thick: "4px solid"
+  border-width-heavy: "8px solid"
